@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lava-Rapido Varandinha</title>
+    <title>Lava-Rápido Varandinha</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .navbar img {
+            height: 100px; /* Aumentando o tamanho do logo */
+            margin-right: 50px; /* Espaçamento à direita do logo */
+        }
+        .profile-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 100px; /* Para evitar que a imagem fique atrás da navbar */
+        }
+        .content {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <img class="profile-img" src="assets/site.gif" alt="..." />
+    <div class="navbar">
+        <img src="assets/logo.png" alt="Logo Lava-Rápido Varandinha">
+    </div>
+    <img class="profile-img" src="assets/site.gif" alt="Imagem do Lava-Rápido Varandinha">
+    <div class="content">
+        <h1>Em breve essa página servirá de divulgação para o Lava-Rápido Varandinha</h1>
+    </div>
 </body>
 </html>
